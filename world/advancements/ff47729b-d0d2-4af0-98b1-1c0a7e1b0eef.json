@@ -1,0 +1,117 @@
+{
+  "vanillatweaks:root": {
+    "criteria": {
+      "tick": "2025-09-17 17:12:53 +0300"
+    },
+    "done": true
+  },
+  "vanillatweaks:villager_death": {
+    "criteria": {
+      "tick": "2025-09-17 17:12:53 +0300"
+    },
+    "done": true
+  },
+  "vanillatweaks:wandering_trader_announcements": {
+    "criteria": {
+      "tick": "2025-09-17 17:12:53 +0300"
+    },
+    "done": true
+  },
+  "vanillatweaks:confetti_creepers": {
+    "criteria": {
+      "tick": "2025-09-17 17:12:53 +0300"
+    },
+    "done": true
+  },
+  "vanillatweaks:tpa": {
+    "criteria": {
+      "tick": "2025-09-17 17:12:53 +0300"
+    },
+    "done": true
+  },
+  "vanillatweaks:fast_leaf_decay": {
+    "criteria": {
+      "tick": "2025-09-17 17:12:53 +0300"
+    },
+    "done": true
+  },
+  "vanillatweaks:multiplayer_sleep": {
+    "criteria": {
+      "tick": "2025-09-17 17:12:53 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "unlock_right_away": "2025-09-17 17:12:53 +0300"
+    },
+    "done": true
+  },
+  "vanillatweaks:villager_workstation_highlights": {
+    "criteria": {
+      "tick": "2025-09-17 17:12:53 +0300"
+    },
+    "done": true
+  },
+  "vanillatweaks:custom_nether_portals": {
+    "criteria": {
+      "tick": "2025-09-17 17:12:53 +0300"
+    },
+    "done": true
+  },
+  "vanillatweaks:painting_picker": {
+    "criteria": {
+      "tick": "2025-09-17 17:12:53 +0300"
+    },
+    "done": true
+  },
+  "vanillatweaks:homes": {
+    "criteria": {
+      "tick": "2025-09-17 17:12:53 +0300"
+    },
+    "done": true
+  },
+  "graves:load": {
+    "criteria": {
+      "requirements": "2025-09-17 17:12:53 +0300"
+    },
+    "done": true
+  },
+  "vanillatweaks:coordinates_hud": {
+    "criteria": {
+      "tick": "2025-09-17 17:12:53 +0300"
+    },
+    "done": true
+  },
+  "vanillatweaks:afk_display": {
+    "criteria": {
+      "tick": "2025-09-17 17:12:53 +0300"
+    },
+    "done": true
+  },
+  "vanillatweaks:armored_elytra": {
+    "criteria": {
+      "tick": "2025-09-17 17:12:53 +0300"
+    },
+    "done": true
+  },
+  "vanillatweaks:back": {
+    "criteria": {
+      "tick": "2025-09-17 17:12:53 +0300"
+    },
+    "done": true
+  },
+  "vanillatweaks:real_clock": {
+    "criteria": {
+      "tick": "2025-09-17 17:12:53 +0300"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:cherry_grove": "2025-09-17 17:12:54 +0300"
+    },
+    "done": false
+  },
+  "DataVersion": 4440
+}

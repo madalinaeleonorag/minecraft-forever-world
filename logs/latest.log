@@ -1,0 +1,21 @@
+[12:21:40] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
+[12:21:42] [Worker-Main-2/WARN]: Found loot table element validation problem in {minecraft:entities/player@minecraft:loot_table}.pools[1].entries[0]: Missing element player_heads:entities/player of type minecraft:loot_table
+[12:21:42] [Worker-Main-2/WARN]: Found loot table element validation problem in {minecraft:entities/villager@minecraft:loot_table}.pools[2].entries[0]: Missing element more_mob_heads:entities/villager of type minecraft:loot_table
+[12:21:42] [ServerMain/INFO]: Loaded 1519 recipes
+[12:21:42] [ServerMain/INFO]: Loaded 1617 advancements
+[12:21:42] [Server thread/INFO]: Starting minecraft server version 1.21.11
+[12:21:42] [Server thread/INFO]: Loading properties
+[12:21:42] [Server thread/INFO]: Default game type: SURVIVAL
+[12:21:42] [Server thread/INFO]: Generating keypair
+[12:21:42] [Server thread/INFO]: Starting Minecraft server on *:25565
+[12:21:43] [Server thread/INFO]: Preparing level "world"
+[12:21:43] [Server thread/INFO]: Loading 75 persistent chunks...
+[12:21:43] [Server thread/INFO]: Preparing spawn area: 11%
+[12:21:43] [Server thread/INFO]: Preparing spawn area: 11%
+[12:21:44] [Server thread/INFO]: Time elapsed: 690 ms
+[12:21:44] [Server thread/INFO]: Done (0.990s)! For help, type "help"
+[12:21:50] [User Authenticator #1/INFO]: UUID of player Enowra is ae880276-405b-4513-89db-e80964539ed7
+[12:21:51] [Server thread/INFO]: Enowra[/86.124.24.17:50008] logged in with entity id 657 at (-5123.879505754915, 71.0, 4005.101485056806)
+[12:21:51] [Server thread/INFO]: Enowra joined the game
+[12:22:00] [Server thread/INFO]: Enowra lost connection: Disconnected
+[12:22:00] [Server thread/INFO]: Enowra left the game
