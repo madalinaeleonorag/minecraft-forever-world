@@ -17,6 +17,7 @@
       "minecraft:sunflower_plains": "2025-10-18 22:24:37 +0300",
       "minecraft:birch_forest": "2026-02-08 21:47:28 +0200",
       "minecraft:old_growth_spruce_taiga": "2026-02-08 21:44:07 +0200",
+      "minecraft:snowy_beach": "2026-02-21 21:13:36 +0200",
       "minecraft:bamboo_jungle": "2026-02-08 21:53:00 +0200",
       "minecraft:windswept_savanna": "2026-02-08 21:51:21 +0200",
       "minecraft:flower_forest": "2026-02-08 22:05:21 +0200",
@@ -29,6 +30,7 @@
       "minecraft:river": "2025-10-16 07:30:26 +0300",
       "minecraft:lukewarm_ocean": "2026-02-08 21:52:14 +0200",
       "minecraft:stony_shore": "2026-02-08 21:48:12 +0200",
+      "minecraft:snowy_plains": "2026-02-21 21:13:57 +0200",
       "minecraft:dripstone_caves": "2025-09-17 10:26:43 +0300",
       "minecraft:old_growth_birch_forest": "2026-02-08 21:43:56 +0200",
       "minecraft:meadow": "2025-09-17 17:11:06 +0300",
@@ -4971,6 +4973,18 @@
   "minecraft:nether/create_full_beacon": {
     "criteria": {
       "beacon": "2026-02-21 15:46:12 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/yellow_dye_from_wildflowers": {
+    "criteria": {
+      "has_wildflowers": "2026-02-21 17:44:25 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/spruce_shelf": {
+    "criteria": {
+      "has_stripped_spruce_log": "2026-02-21 18:23:08 +0200"
     },
     "done": true
   },
