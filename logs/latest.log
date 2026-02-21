@@ -1,21 +1,25 @@
-[15:33:01] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
-[15:33:02] [Worker-Main-3/WARN]: Found loot table element validation problem in {minecraft:entities/player@minecraft:loot_table}.pools[1].entries[0]: Missing element player_heads:entities/player of type minecraft:loot_table
-[15:33:02] [Worker-Main-3/WARN]: Found loot table element validation problem in {minecraft:entities/villager@minecraft:loot_table}.pools[2].entries[0]: Missing element more_mob_heads:entities/villager of type minecraft:loot_table
-[15:33:02] [ServerMain/INFO]: Loaded 1519 recipes
-[15:33:02] [ServerMain/INFO]: Loaded 1617 advancements
-[15:33:02] [Server thread/INFO]: Starting minecraft server version 1.21.11
-[15:33:02] [Server thread/INFO]: Loading properties
-[15:33:02] [Server thread/INFO]: Default game type: SURVIVAL
-[15:33:02] [Server thread/INFO]: Generating keypair
-[15:33:02] [Server thread/INFO]: Starting Minecraft server on *:25565
-[15:33:02] [Server thread/INFO]: Preparing level "world"
-[15:33:03] [Server thread/INFO]: Loading 75 persistent chunks...
-[15:33:03] [Server thread/INFO]: Preparing spawn area: 11%
-[15:33:03] [Server thread/INFO]: Preparing spawn area: 11%
-[15:33:03] [Server thread/INFO]: Time elapsed: 738 ms
-[15:33:03] [Server thread/INFO]: Done (1.006s)! For help, type "help"
-[15:33:40] [User Authenticator #1/INFO]: UUID of player Enowra is ae880276-405b-4513-89db-e80964539ed7
-[15:33:41] [Server thread/INFO]: Enowra[/86.124.24.17:62859] logged in with entity id 629 at (-5087.404703190077, 69.0, 3992.5362827782824)
-[15:33:41] [Server thread/INFO]: Enowra joined the game
-[15:33:42] [Server thread/INFO]: Enowra has reached the goal [Beaconator]
-[15:33:42] [Server thread/INFO]: Enowra has made the advancement [Bring Home the Beacon]
+[15:52:51] [ServerMain/WARN]: You specified a resource pack without providing a sha1 hash. Pack will be updated on the client only if you change the name of the pack.
+[15:52:51] [ServerMain/WARN]: resource-pack-id missing, using default of 8a14d7f8-fa23-39f0-b805-57cc2d6ae13e
+[15:52:51] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
+[15:52:52] [Worker-Main-2/WARN]: Found loot table element validation problem in {minecraft:entities/player@minecraft:loot_table}.pools[1].entries[0]: Missing element player_heads:entities/player of type minecraft:loot_table
+[15:52:52] [Worker-Main-2/WARN]: Found loot table element validation problem in {minecraft:entities/villager@minecraft:loot_table}.pools[2].entries[0]: Missing element more_mob_heads:entities/villager of type minecraft:loot_table
+[15:52:52] [ServerMain/INFO]: Loaded 1519 recipes
+[15:52:52] [ServerMain/INFO]: Loaded 1617 advancements
+[15:52:52] [Server thread/INFO]: Starting minecraft server version 1.21.11
+[15:52:52] [Server thread/INFO]: Loading properties
+[15:52:52] [Server thread/INFO]: Default game type: SURVIVAL
+[15:52:52] [Server thread/INFO]: Generating keypair
+[15:52:52] [Server thread/INFO]: Starting Minecraft server on *:25565
+[15:52:52] [Server thread/INFO]: Preparing level "world"
+[15:52:53] [Server thread/INFO]: Loading 75 persistent chunks...
+[15:52:53] [Server thread/INFO]: Preparing spawn area: 11%
+[15:52:53] [Server thread/INFO]: Preparing spawn area: 11%
+[15:52:53] [Server thread/INFO]: Time elapsed: 680 ms
+[15:52:53] [Server thread/INFO]: Done (1.019s)! For help, type "help"
+[15:53:06] [Server thread/INFO]: Enowra (/86.124.24.17:60224) lost connection: Disconnected
+[15:53:11] [User Authenticator #1/INFO]: UUID of player Enowra is ae880276-405b-4513-89db-e80964539ed7
+[15:53:22] [Server thread/INFO]: Enowra[/86.124.24.17:60230] logged in with entity id 676 at (-5095.6057118450635, 64.0, 4001.4398213933882)
+[15:53:22] [Server thread/INFO]: Enowra joined the game
+[15:53:44] [Server thread/INFO]: Enowra lost connection: Disconnected
+[15:53:44] [Server thread/INFO]: Enowra left the game
+[15:54:44] [Server thread/INFO]: Server empty for 60 seconds, pausing
