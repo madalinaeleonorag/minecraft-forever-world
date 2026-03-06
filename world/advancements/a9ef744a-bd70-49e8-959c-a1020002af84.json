@@ -494,15 +494,16 @@
     "criteria": {
       "cooked_porkchop": "2025-09-27 22:58:13 +0300",
       "mutton": "2025-09-17 18:22:12 +0300",
-      "apple": "2025-09-27 22:16:29 +0300",
       "bread": "2025-09-17 18:17:29 +0300",
       "golden_apple": "2025-11-15 14:22:51 +0200",
-      "cooked_chicken": "2025-09-17 18:38:32 +0300",
       "rotten_flesh": "2025-09-17 18:22:25 +0300",
-      "enchanted_golden_apple": "2025-09-18 22:21:32 +0300",
       "cooked_mutton": "2025-09-26 12:32:48 +0300",
+      "salmon": "2026-02-27 21:00:43 +0200",
       "cooked_beef": "2026-02-08 22:46:37 +0200",
       "beef": "2026-02-08 22:20:31 +0200",
+      "apple": "2025-09-27 22:16:29 +0300",
+      "cooked_chicken": "2025-09-17 18:38:32 +0300",
+      "enchanted_golden_apple": "2025-09-18 22:21:32 +0300",
       "carrot": "2026-02-15 11:49:04 +0200"
     },
     "done": false
@@ -722,6 +723,7 @@
       "minecraft:blaze": "2025-09-27 23:04:36 +0300",
       "minecraft:pillager": "2025-10-16 01:47:16 +0300",
       "minecraft:skeleton": "2025-09-17 18:21:55 +0300",
+      "minecraft:parched": "2026-02-22 20:38:43 +0200",
       "minecraft:bogged": "2026-02-15 13:21:08 +0200",
       "minecraft:ghast": "2025-09-21 17:03:12 +0300",
       "minecraft:hoglin": "2025-11-15 13:52:33 +0200",
@@ -5775,6 +5777,168 @@
   "minecraft:adventure/minecraft_trials_edition": {
     "criteria": {
       "minecraft_trials_edition": "2026-02-21 23:01:07 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/activator_rail": {
+    "criteria": {
+      "has_rail": "2026-02-22 20:09:59 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/detector_rail": {
+    "criteria": {
+      "has_rail": "2026-02-22 20:09:59 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/powered_rail": {
+    "criteria": {
+      "has_rail": "2026-02-22 20:09:59 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/smooth_sandstone_slab_from_smooth_sandstone_stonecutting": {
+    "criteria": {
+      "has_smooth_sandstone": "2026-02-22 20:33:38 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/smooth_sandstone_slab": {
+    "criteria": {
+      "has_smooth_sandstone": "2026-02-22 20:33:38 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/smooth_sandstone_stairs_from_smooth_sandstone_stonecutting": {
+    "criteria": {
+      "has_smooth_sandstone": "2026-02-22 20:33:38 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/smooth_sandstone_stairs": {
+    "criteria": {
+      "has_smooth_sandstone": "2026-02-22 20:33:38 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/lime_bed": {
+    "criteria": {
+      "has_lime_wool": "2026-02-27 20:43:16 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/lime_carpet": {
+    "criteria": {
+      "has_lime_wool": "2026-02-27 20:43:16 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/lime_banner": {
+    "criteria": {
+      "has_lime_wool": "2026-02-27 20:43:16 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/magenta_dye_from_blue_red_pink": {
+    "criteria": {
+      "has_red_dye": "2026-02-27 22:09:59 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_red_wool": {
+    "criteria": {
+      "has_needed_dye": "2026-02-27 22:09:59 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/purple_dye": {
+    "criteria": {
+      "has_red_dye": "2026-02-27 22:09:59 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/dye_red_bed": {
+    "criteria": {
+      "has_needed_dye": "2026-02-27 22:09:59 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/red_candle": {
+    "criteria": {
+      "has_red_dye": "2026-02-27 22:09:59 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/red_bundle": {
+    "criteria": {
+      "has_red_dye": "2026-02-27 22:09:59 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/dye_red_carpet": {
+    "criteria": {
+      "has_needed_dye": "2026-02-27 22:09:59 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/pink_dye_from_red_white_dye": {
+    "criteria": {
+      "has_red_dye": "2026-02-27 22:09:59 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/dye_red_harness": {
+    "criteria": {
+      "has_needed_dye": "2026-02-27 22:09:59 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/magenta_dye_from_blue_red_white_dye": {
+    "criteria": {
+      "has_rose_red": "2026-02-27 22:09:59 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/copper_torch": {
+    "criteria": {
+      "has_copper_nugget": "2026-02-27 23:11:45 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/copper_ingot_from_nuggets": {
+    "criteria": {
+      "has_copper_nugget": "2026-02-27 23:11:45 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/waxed_copper_chain_from_honeycomb": {
+    "criteria": {
+      "has_copper_chain": "2026-02-27 23:11:47 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/emerald": {
+    "criteria": {
+      "has_emerald_block": "2026-03-02 21:59:03 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/waxed_exposed_copper_chain_from_honeycomb": {
+    "criteria": {
+      "has_exposed_copper_chain": "2026-03-03 10:26:38 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/packed_mud": {
+    "criteria": {
+      "has_mud": "2026-03-03 10:54:02 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dark_oak_wood": {
+    "criteria": {
+      "has_log": "2026-03-04 16:45:50 +0200"
     },
     "done": true
   },
