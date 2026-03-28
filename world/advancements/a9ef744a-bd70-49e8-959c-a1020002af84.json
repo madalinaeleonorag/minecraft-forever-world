@@ -502,6 +502,7 @@
       "cooked_beef": "2026-02-08 22:46:37 +0200",
       "beef": "2026-02-08 22:20:31 +0200",
       "apple": "2025-09-27 22:16:29 +0300",
+      "cooked_rabbit": "2026-03-21 21:31:28 +0200",
       "cooked_chicken": "2025-09-17 18:38:32 +0300",
       "enchanted_golden_apple": "2025-09-18 22:21:32 +0300",
       "rabbit_stew": "2026-03-09 20:31:00 +0200",
@@ -6427,6 +6428,24 @@
   "minecraft:husbandry/allay_deliver_item_to_player": {
     "criteria": {
       "allay_deliver_item_to_player": "2026-03-21 13:51:01 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/leather": {
+    "criteria": {
+      "has_rabbit_hide": "2026-03-21 21:31:24 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/rabbit_stew_from_brown_mushroom": {
+    "criteria": {
+      "has_cooked_rabbit": "2026-03-21 21:31:24 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/rabbit_stew_from_red_mushroom": {
+    "criteria": {
+      "has_cooked_rabbit": "2026-03-21 21:31:24 +0200"
     },
     "done": true
   },
