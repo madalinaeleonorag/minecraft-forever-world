@@ -1,24 +1,103 @@
-[00:35:23] [Netty NIO IO #3/ERROR]: Error sending packet clientbound/minecraft:disconnect
+[11:42:23] [ServerMain/WARN]: You specified a resource pack without providing a sha1 hash. Pack will be updated on the client only if you change the name of the pack.
+[11:42:23] [ServerMain/WARN]: resource-pack-id missing, using default of 8a14d7f8-fa23-39f0-b805-57cc2d6ae13e
+[11:42:23] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
+[11:42:24] [ServerMain/INFO]: Starting upgrade for world "world"
+[11:42:27] [ServerMain/INFO]: Upgrading progress: 2%
+[11:42:27] [ServerMain/INFO]: File system capabilities: FileSystemCapabilities[atomicMove=true, hardLinks=true]
+[11:42:28] [ServerMain/INFO]: Applying file structure changes for world "world"
+[11:42:28] [ServerMain/INFO]: Moving new hardlinked world to top level
+[11:42:28] [ServerMain/INFO]: Start cleanup
+[11:42:28] [ServerMain/INFO]: Moving out old world folder
+[11:42:28] [ServerMain/INFO]: Moving in new world folder
+[11:42:28] [ServerMain/INFO]: Done applying file structure changes for world "world". Cleaning up outdated data...
+[11:42:29] [ServerMain/INFO]: Upgrade done for world "world"
+[11:42:30] [Worker-Main-6/WARN]: Found loot table element validation problem in {minecraft:entities/player@minecraft:loot_table}.pools[1].entries[0]: Missing element player_heads:entities/player of type minecraft:loot_table
+[11:42:30] [Worker-Main-6/WARN]: Found loot table element validation problem in {minecraft:entities/villager@minecraft:loot_table}.pools[2].entries[0]: Missing element more_mob_heads:entities/villager of type minecraft:loot_table
+[11:42:31] [ServerMain/INFO]: Loaded 1564 recipes
+[11:42:31] [ServerMain/ERROR]: Failed to load function coordinates_hud:get_24_time
+java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 3: Can't find element 'minecraft:daytime' of type 'minecraft:timeline' at position 72: ...ry daytime<--[HERE]
+	at java.base/java.util.concurrent.CompletableFuture.wrapInCompletionException(CompletableFuture.java:323)
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:359)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:364)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1791)
+	at net.minecraft.server.packs.resources.SimpleReloadInstance.lambda$prepareTasks$1(SimpleReloadInstance.java:51)
+	at java.base/java.util.concurrent.ForkJoinTask$RunnableExecuteAction.compute(ForkJoinTask.java:1750)
+	at java.base/java.util.concurrent.ForkJoinTask$RunnableExecuteAction.compute(ForkJoinTask.java:1742)
+	at java.base/java.util.concurrent.ForkJoinTask$InterruptibleTask.exec(ForkJoinTask.java:1659)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:511)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1450)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:2019)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:187)
+Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 3: Can't find element 'minecraft:daytime' of type 'minecraft:timeline' at position 72: ...ry daytime<--[HERE]
+	at net.minecraft.commands.functions.CommandFunction.fromLines(CommandFunction.java:80)
+	at net.minecraft.server.ServerFunctionLibrary.lambda$reload$3(ServerFunctionLibrary.java:85)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1789)
+	... 8 more
+[11:42:31] [ServerMain/INFO]: Loaded 1650 advancements
+[11:42:31] [Server thread/INFO]: Starting minecraft server version 26.1
+[11:42:31] [Server thread/INFO]: Loading properties
+[11:42:31] [Server thread/INFO]: Default game type: SURVIVAL
+[11:42:31] [Server thread/INFO]: Generating keypair
+[11:42:32] [Server thread/INFO]: Starting Minecraft server on *:25565
+[11:42:32] [Server thread/INFO]: Preparing level "world"
+[11:42:32] [Server thread/INFO]: Loading 75 persistent chunks...
+[11:42:32] [Server thread/INFO]: Preparing spawn area: 11%
+[11:42:33] [Server thread/INFO]: Preparing spawn area: 11%
+[11:42:33] [Server thread/INFO]: Preparing spawn area: 11%
+[11:42:34] [Server thread/INFO]: Preparing spawn area: 11%
+[11:42:34] [Server thread/INFO]: Time elapsed: 1973 ms
+[11:42:34] [Server thread/INFO]: Done (2.654s)! For help, type "help"
+[11:42:34] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[11:42:35] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[11:42:35] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[11:42:35] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[11:42:35] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[11:42:35] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[11:42:35] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[11:43:35] [Server thread/INFO]: Server empty for 60 seconds, pausing
+[12:01:08] [User Authenticator #1/INFO]: UUID of player Enowra is ae880276-405b-4513-89db-e80964539ed7
+[12:01:11] [Server thread/WARN]: Ignored advancement 'minecraft:recipes/decorations/mossy_stone_brick_wall_from_mossy_stone_brick_stonecutting' in progress file .\world\players\advancements\ae880276-405b-4513-89db-e80964539ed7.json - it doesn't exist anymore?
+[12:01:11] [Server thread/INFO]: Enowra[/86.124.24.17:62319] logged in with entity id 165 at (1999370.9010175476, 70.0, 1999955.7233778804)
+[12:01:11] [Server thread/INFO]: Enowra joined the game
+[12:01:15] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2015ms or 40 ticks behind
+[12:02:36] [User Authenticator #2/INFO]: UUID of player Zeus_Odin is 1c3c29f1-d297-40bf-8dbe-3913342513f1
+[12:02:37] [Server thread/INFO]: Zeus_Odin[/86.124.24.17:59670] logged in with entity id 2356 at (1999535.796564963, 64.0, 2000010.5550409153)
+[12:02:37] [Server thread/INFO]: Zeus_Odin joined the game
+[12:03:09] [User Authenticator #3/INFO]: UUID of player Fanescu is a9ef744a-bd70-49e8-959c-a1020002af84
+[12:03:12] [Server thread/WARN]: Ignored advancement 'minecraft:recipes/decorations/mossy_stone_brick_wall_from_mossy_stone_brick_stonecutting' in progress file .\world\players\advancements\a9ef744a-bd70-49e8-959c-a1020002af84.json - it doesn't exist anymore?
+[12:03:12] [Server thread/INFO]: Fanescu[/188.26.8.198:65331] logged in with entity id 2689 at (1999711.1675624342, 63.0, 2000245.7364401508)
+[12:03:12] [Server thread/INFO]: Fanescu joined the game
+[12:03:19] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2009ms or 40 ticks behind
+[12:03:38] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3979ms or 79 ticks behind
+[12:03:55] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2571ms or 51 ticks behind
+[12:04:13] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2686ms or 53 ticks behind
+[12:04:32] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4042ms or 80 ticks behind
+[12:04:52] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4975ms or 99 ticks behind
+[12:05:11] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4283ms or 85 ticks behind
+[12:05:30] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3961ms or 79 ticks behind
+[12:05:51] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5867ms or 117 ticks behind
+[12:06:11] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5068ms or 101 ticks behind
+[12:06:26] [Netty NIO IO #14/ERROR]: Error sending packet clientbound/minecraft:disconnect
 io.netty.handler.codec.EncoderException: Sending unknown packet 'clientbound/minecraft:disconnect'
-	at aan.a(SourceFile:50)
-	at aan.encode(SourceFile:14)
-	at xj.a(SourceFile:26)
-	at xj.encode(SourceFile:12)
+	at net.minecraft.network.codec.IdDispatchCodec.encode(IdDispatchCodec.java:50)
+	at net.minecraft.network.codec.IdDispatchCodec.encode(IdDispatchCodec.java:14)
+	at net.minecraft.network.PacketEncoder.encode(PacketEncoder.java:26)
+	at net.minecraft.network.PacketEncoder.encode(PacketEncoder.java:12)
 	at io.netty.handler.codec.MessageToByteEncoder.write(MessageToByteEncoder.java:107)
 	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:827)
 	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:752)
 	at io.netty.channel.ChannelOutboundHandlerAdapter.write(ChannelOutboundHandlerAdapter.java:113)
-	at wu$2.write(SourceFile:488)
+	at net.minecraft.network.Connection$2.write(Connection.java:488)
 	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:827)
 	at io.netty.channel.AbstractChannelHandlerContext.writeAndFlush(AbstractChannelHandlerContext.java:804)
 	at io.netty.channel.AbstractChannelHandlerContext.writeAndFlush(AbstractChannelHandlerContext.java:869)
 	at io.netty.channel.DefaultChannelPipeline.writeAndFlush(DefaultChannelPipeline.java:1046)
 	at io.netty.channel.Channel.writeAndFlush(Channel.java:257)
-	at wu.c(SourceFile:324)
-	at wu.b(SourceFile:316)
-	at wu.a(SourceFile:298)
-	at wu.a(SourceFile:292)
-	at wu.exceptionCaught(SourceFile:143)
+	at net.minecraft.network.Connection.doSendPacket(Connection.java:324)
+	at net.minecraft.network.Connection.sendPacket(Connection.java:316)
+	at net.minecraft.network.Connection.send(Connection.java:298)
+	at net.minecraft.network.Connection.send(Connection.java:292)
+	at net.minecraft.network.Connection.exceptionCaught(Connection.java:143)
 	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:289)
 	at io.netty.channel.AbstractChannelHandlerContext.fireExceptionCaught(AbstractChannelHandlerContext.java:271)
 	at io.netty.channel.DefaultChannelPipeline$HeadContext.exceptionCaught(DefaultChannelPipeline.java:1396)
@@ -36,27 +115,44 @@ io.netty.handler.codec.EncoderException: Sending unknown packet 'clientbound/min
 	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:1193)
 	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
 	at java.base/java.lang.Thread.run(Thread.java:1474)
-[01:22:15] [Netty NIO IO #2/ERROR]: Error sending packet clientbound/minecraft:disconnect
+[12:06:32] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5480ms or 109 ticks behind
+[12:06:52] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5703ms or 114 ticks behind
+[12:07:14] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6853ms or 137 ticks behind
+[12:07:34] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5255ms or 105 ticks behind
+[12:07:55] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6200ms or 124 ticks behind
+[12:08:16] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5560ms or 111 ticks behind
+[12:08:35] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4089ms or 81 ticks behind
+[12:08:53] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3274ms or 65 ticks behind
+[12:09:11] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2878ms or 57 ticks behind
+[12:09:29] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3204ms or 64 ticks behind
+[12:09:32] [Server thread/INFO]: [Fanescu: Set own game mode to Spectator Mode]
+[12:09:47] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2877ms or 57 ticks behind
+[12:10:05] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2705ms or 54 ticks behind
+[12:10:09] [Server thread/INFO]: Zeus_Odin lost connection: Disconnected
+[12:10:09] [Server thread/INFO]: Zeus_Odin left the game
+[12:10:50] [Server thread/INFO]: Fanescu lost connection: Disconnected
+[12:10:50] [Server thread/INFO]: Fanescu left the game
+[12:31:26] [Netty NIO IO #8/ERROR]: Error sending packet clientbound/minecraft:disconnect
 io.netty.handler.codec.EncoderException: Sending unknown packet 'clientbound/minecraft:disconnect'
-	at aan.a(SourceFile:50)
-	at aan.encode(SourceFile:14)
-	at xj.a(SourceFile:26)
-	at xj.encode(SourceFile:12)
+	at net.minecraft.network.codec.IdDispatchCodec.encode(IdDispatchCodec.java:50)
+	at net.minecraft.network.codec.IdDispatchCodec.encode(IdDispatchCodec.java:14)
+	at net.minecraft.network.PacketEncoder.encode(PacketEncoder.java:26)
+	at net.minecraft.network.PacketEncoder.encode(PacketEncoder.java:12)
 	at io.netty.handler.codec.MessageToByteEncoder.write(MessageToByteEncoder.java:107)
 	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:827)
 	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:752)
 	at io.netty.channel.ChannelOutboundHandlerAdapter.write(ChannelOutboundHandlerAdapter.java:113)
-	at wu$2.write(SourceFile:488)
+	at net.minecraft.network.Connection$2.write(Connection.java:488)
 	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:827)
 	at io.netty.channel.AbstractChannelHandlerContext.writeAndFlush(AbstractChannelHandlerContext.java:804)
 	at io.netty.channel.AbstractChannelHandlerContext.writeAndFlush(AbstractChannelHandlerContext.java:869)
 	at io.netty.channel.DefaultChannelPipeline.writeAndFlush(DefaultChannelPipeline.java:1046)
 	at io.netty.channel.Channel.writeAndFlush(Channel.java:257)
-	at wu.c(SourceFile:324)
-	at wu.b(SourceFile:316)
-	at wu.a(SourceFile:298)
-	at wu.a(SourceFile:292)
-	at wu.exceptionCaught(SourceFile:143)
+	at net.minecraft.network.Connection.doSendPacket(Connection.java:324)
+	at net.minecraft.network.Connection.sendPacket(Connection.java:316)
+	at net.minecraft.network.Connection.send(Connection.java:298)
+	at net.minecraft.network.Connection.send(Connection.java:292)
+	at net.minecraft.network.Connection.exceptionCaught(Connection.java:143)
 	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:289)
 	at io.netty.channel.AbstractChannelHandlerContext.fireExceptionCaught(AbstractChannelHandlerContext.java:271)
 	at io.netty.channel.DefaultChannelPipeline$HeadContext.exceptionCaught(DefaultChannelPipeline.java:1396)
@@ -74,331 +170,109 @@ io.netty.handler.codec.EncoderException: Sending unknown packet 'clientbound/min
 	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:1193)
 	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
 	at java.base/java.lang.Thread.run(Thread.java:1474)
-[01:58:35] [User Authenticator #13/INFO]: UUID of player Moheur is 1662f098-5dd2-43a4-a4c2-76a6b8255297
-[01:58:40] [Server thread/INFO]: Moheur[/5.12.11.181:64965] logged in with entity id 315032 at (2000203.4979070572, -44.0, 1999860.7068539455)
-[01:58:40] [Server thread/INFO]: Moheur joined the game
-[01:59:44] [Server thread/INFO]: [Moheur: Teleported Moheur to 2000202.450000, 70.000000, 1999860.600000]
-[02:00:47] [Server thread/INFO]: Moheur was shot by Skeleton
-[02:01:55] [Server thread/INFO]: Moheur lost connection: Disconnected
-[02:01:55] [Server thread/INFO]: Moheur left the game
-[02:02:55] [Server thread/INFO]: Server empty for 60 seconds, pausing
-[03:04:07] [Netty NIO IO #15/ERROR]: Error sending packet clientbound/minecraft:disconnect
-io.netty.handler.codec.EncoderException: Sending unknown packet 'clientbound/minecraft:disconnect'
-	at aan.a(SourceFile:50)
-	at aan.encode(SourceFile:14)
-	at xj.a(SourceFile:26)
-	at xj.encode(SourceFile:12)
-	at io.netty.handler.codec.MessageToByteEncoder.write(MessageToByteEncoder.java:107)
-	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:827)
-	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:752)
-	at io.netty.channel.ChannelOutboundHandlerAdapter.write(ChannelOutboundHandlerAdapter.java:113)
-	at wu$2.write(SourceFile:488)
-	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:827)
-	at io.netty.channel.AbstractChannelHandlerContext.writeAndFlush(AbstractChannelHandlerContext.java:804)
-	at io.netty.channel.AbstractChannelHandlerContext.writeAndFlush(AbstractChannelHandlerContext.java:869)
-	at io.netty.channel.DefaultChannelPipeline.writeAndFlush(DefaultChannelPipeline.java:1046)
-	at io.netty.channel.Channel.writeAndFlush(Channel.java:257)
-	at wu.c(SourceFile:324)
-	at wu.b(SourceFile:316)
-	at wu.a(SourceFile:298)
-	at wu.a(SourceFile:292)
-	at wu.exceptionCaught(SourceFile:143)
-	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:289)
-	at io.netty.channel.AbstractChannelHandlerContext.fireExceptionCaught(AbstractChannelHandlerContext.java:271)
-	at io.netty.channel.DefaultChannelPipeline$HeadContext.exceptionCaught(DefaultChannelPipeline.java:1396)
-	at io.netty.channel.DefaultChannelPipeline.fireExceptionCaught(DefaultChannelPipeline.java:890)
-	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.handleReadException(AbstractNioByteChannel.java:127)
-	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:179)
-	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.handle(AbstractNioChannel.java:445)
-	at io.netty.channel.nio.NioIoHandler$DefaultNioRegistration.handle(NioIoHandler.java:388)
-	at io.netty.channel.nio.NioIoHandler.processSelectedKey(NioIoHandler.java:596)
-	at io.netty.channel.nio.NioIoHandler.processSelectedKeysPlain(NioIoHandler.java:541)
-	at io.netty.channel.nio.NioIoHandler.processSelectedKeys(NioIoHandler.java:514)
-	at io.netty.channel.nio.NioIoHandler.run(NioIoHandler.java:484)
-	at io.netty.channel.SingleThreadIoEventLoop.runIo(SingleThreadIoEventLoop.java:225)
-	at io.netty.channel.SingleThreadIoEventLoop.run(SingleThreadIoEventLoop.java:196)
-	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:1193)
-	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
-	at java.base/java.lang.Thread.run(Thread.java:1474)
-[03:31:55] [Server thread/INFO]: /176.65.134.24:63330 lost connection: Internal Exception: io.netty.handler.codec.DecoderException: java.io.IOException: Packet login/serverbound/minecraft:hello (aky) was larger than I expected, found 1 bytes extra whilst reading packet serverbound/minecraft:hello
-[03:37:47] [Server thread/INFO]: /176.65.134.24:63330 lost connection: Internal Exception: io.netty.handler.codec.DecoderException: java.io.IOException: Packet login/serverbound/minecraft:hello (aky) was larger than I expected, found 1 bytes extra whilst reading packet serverbound/minecraft:hello
-[03:43:27] [Server thread/INFO]: /176.65.134.24:63330 lost connection: Internal Exception: io.netty.handler.codec.DecoderException: java.io.IOException: Packet login/serverbound/minecraft:hello (aky) was larger than I expected, found 1 bytes extra whilst reading packet serverbound/minecraft:hello
-[04:42:03] [Netty NIO IO #2/ERROR]: Error sending packet clientbound/minecraft:disconnect
-io.netty.handler.codec.EncoderException: Sending unknown packet 'clientbound/minecraft:disconnect'
-	at aan.a(SourceFile:50)
-	at aan.encode(SourceFile:14)
-	at xj.a(SourceFile:26)
-	at xj.encode(SourceFile:12)
-	at io.netty.handler.codec.MessageToByteEncoder.write(MessageToByteEncoder.java:107)
-	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:827)
-	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:752)
-	at io.netty.channel.ChannelOutboundHandlerAdapter.write(ChannelOutboundHandlerAdapter.java:113)
-	at wu$2.write(SourceFile:488)
-	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:827)
-	at io.netty.channel.AbstractChannelHandlerContext.writeAndFlush(AbstractChannelHandlerContext.java:804)
-	at io.netty.channel.AbstractChannelHandlerContext.writeAndFlush(AbstractChannelHandlerContext.java:869)
-	at io.netty.channel.DefaultChannelPipeline.writeAndFlush(DefaultChannelPipeline.java:1046)
-	at io.netty.channel.Channel.writeAndFlush(Channel.java:257)
-	at wu.c(SourceFile:324)
-	at wu.b(SourceFile:316)
-	at wu.a(SourceFile:298)
-	at wu.a(SourceFile:292)
-	at wu.exceptionCaught(SourceFile:143)
-	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:289)
-	at io.netty.channel.AbstractChannelHandlerContext.fireExceptionCaught(AbstractChannelHandlerContext.java:271)
-	at io.netty.channel.DefaultChannelPipeline$HeadContext.exceptionCaught(DefaultChannelPipeline.java:1396)
-	at io.netty.channel.DefaultChannelPipeline.fireExceptionCaught(DefaultChannelPipeline.java:890)
-	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.handleReadException(AbstractNioByteChannel.java:127)
-	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:179)
-	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.handle(AbstractNioChannel.java:445)
-	at io.netty.channel.nio.NioIoHandler$DefaultNioRegistration.handle(NioIoHandler.java:388)
-	at io.netty.channel.nio.NioIoHandler.processSelectedKey(NioIoHandler.java:596)
-	at io.netty.channel.nio.NioIoHandler.processSelectedKeysPlain(NioIoHandler.java:541)
-	at io.netty.channel.nio.NioIoHandler.processSelectedKeys(NioIoHandler.java:514)
-	at io.netty.channel.nio.NioIoHandler.run(NioIoHandler.java:484)
-	at io.netty.channel.SingleThreadIoEventLoop.runIo(SingleThreadIoEventLoop.java:225)
-	at io.netty.channel.SingleThreadIoEventLoop.run(SingleThreadIoEventLoop.java:196)
-	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:1193)
-	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
-	at java.base/java.lang.Thread.run(Thread.java:1474)
-[05:15:59] [Netty NIO IO #14/ERROR]: Error sending packet clientbound/minecraft:disconnect
-io.netty.handler.codec.EncoderException: Sending unknown packet 'clientbound/minecraft:disconnect'
-	at aan.a(SourceFile:50)
-	at aan.encode(SourceFile:14)
-	at xj.a(SourceFile:26)
-	at xj.encode(SourceFile:12)
-	at io.netty.handler.codec.MessageToByteEncoder.write(MessageToByteEncoder.java:107)
-	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:827)
-	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:752)
-	at io.netty.channel.ChannelOutboundHandlerAdapter.write(ChannelOutboundHandlerAdapter.java:113)
-	at wu$2.write(SourceFile:488)
-	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:827)
-	at io.netty.channel.AbstractChannelHandlerContext.writeAndFlush(AbstractChannelHandlerContext.java:804)
-	at io.netty.channel.AbstractChannelHandlerContext.writeAndFlush(AbstractChannelHandlerContext.java:869)
-	at io.netty.channel.DefaultChannelPipeline.writeAndFlush(DefaultChannelPipeline.java:1046)
-	at io.netty.channel.Channel.writeAndFlush(Channel.java:257)
-	at wu.c(SourceFile:324)
-	at wu.b(SourceFile:316)
-	at wu.a(SourceFile:298)
-	at wu.a(SourceFile:292)
-	at wu.exceptionCaught(SourceFile:143)
-	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:289)
-	at io.netty.channel.AbstractChannelHandlerContext.fireExceptionCaught(AbstractChannelHandlerContext.java:271)
-	at io.netty.channel.DefaultChannelPipeline$HeadContext.exceptionCaught(DefaultChannelPipeline.java:1396)
-	at io.netty.channel.DefaultChannelPipeline.fireExceptionCaught(DefaultChannelPipeline.java:890)
-	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.handleReadException(AbstractNioByteChannel.java:127)
-	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:179)
-	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.handle(AbstractNioChannel.java:445)
-	at io.netty.channel.nio.NioIoHandler$DefaultNioRegistration.handle(NioIoHandler.java:388)
-	at io.netty.channel.nio.NioIoHandler.processSelectedKey(NioIoHandler.java:596)
-	at io.netty.channel.nio.NioIoHandler.processSelectedKeysPlain(NioIoHandler.java:541)
-	at io.netty.channel.nio.NioIoHandler.processSelectedKeys(NioIoHandler.java:514)
-	at io.netty.channel.nio.NioIoHandler.run(NioIoHandler.java:484)
-	at io.netty.channel.SingleThreadIoEventLoop.runIo(SingleThreadIoEventLoop.java:225)
-	at io.netty.channel.SingleThreadIoEventLoop.run(SingleThreadIoEventLoop.java:196)
-	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:1193)
-	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
-	at java.base/java.lang.Thread.run(Thread.java:1474)
-[05:16:11] [Netty NIO IO #15/ERROR]: Error sending packet clientbound/minecraft:disconnect
-io.netty.handler.codec.EncoderException: Sending unknown packet 'clientbound/minecraft:disconnect'
-	at aan.a(SourceFile:50)
-	at aan.encode(SourceFile:14)
-	at xj.a(SourceFile:26)
-	at xj.encode(SourceFile:12)
-	at io.netty.handler.codec.MessageToByteEncoder.write(MessageToByteEncoder.java:107)
-	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:827)
-	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:752)
-	at io.netty.channel.ChannelOutboundHandlerAdapter.write(ChannelOutboundHandlerAdapter.java:113)
-	at wu$2.write(SourceFile:488)
-	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:827)
-	at io.netty.channel.AbstractChannelHandlerContext.writeAndFlush(AbstractChannelHandlerContext.java:804)
-	at io.netty.channel.AbstractChannelHandlerContext.writeAndFlush(AbstractChannelHandlerContext.java:869)
-	at io.netty.channel.DefaultChannelPipeline.writeAndFlush(DefaultChannelPipeline.java:1046)
-	at io.netty.channel.Channel.writeAndFlush(Channel.java:257)
-	at wu.c(SourceFile:324)
-	at wu.b(SourceFile:316)
-	at wu.a(SourceFile:298)
-	at wu.a(SourceFile:292)
-	at wu.exceptionCaught(SourceFile:143)
-	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:289)
-	at io.netty.channel.AbstractChannelHandlerContext.fireExceptionCaught(AbstractChannelHandlerContext.java:271)
-	at io.netty.channel.DefaultChannelPipeline$HeadContext.exceptionCaught(DefaultChannelPipeline.java:1396)
-	at io.netty.channel.DefaultChannelPipeline.fireExceptionCaught(DefaultChannelPipeline.java:890)
-	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.handleReadException(AbstractNioByteChannel.java:127)
-	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:179)
-	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.handle(AbstractNioChannel.java:445)
-	at io.netty.channel.nio.NioIoHandler$DefaultNioRegistration.handle(NioIoHandler.java:388)
-	at io.netty.channel.nio.NioIoHandler.processSelectedKey(NioIoHandler.java:596)
-	at io.netty.channel.nio.NioIoHandler.processSelectedKeysPlain(NioIoHandler.java:541)
-	at io.netty.channel.nio.NioIoHandler.processSelectedKeys(NioIoHandler.java:514)
-	at io.netty.channel.nio.NioIoHandler.run(NioIoHandler.java:484)
-	at io.netty.channel.SingleThreadIoEventLoop.runIo(SingleThreadIoEventLoop.java:225)
-	at io.netty.channel.SingleThreadIoEventLoop.run(SingleThreadIoEventLoop.java:196)
-	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:1193)
-	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
-	at java.base/java.lang.Thread.run(Thread.java:1474)
-[05:33:34] [Netty NIO IO #5/ERROR]: Error sending packet clientbound/minecraft:disconnect
-io.netty.handler.codec.EncoderException: Sending unknown packet 'clientbound/minecraft:disconnect'
-	at aan.a(SourceFile:50)
-	at aan.encode(SourceFile:14)
-	at xj.a(SourceFile:26)
-	at xj.encode(SourceFile:12)
-	at io.netty.handler.codec.MessageToByteEncoder.write(MessageToByteEncoder.java:107)
-	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:827)
-	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:752)
-	at io.netty.channel.ChannelOutboundHandlerAdapter.write(ChannelOutboundHandlerAdapter.java:113)
-	at wu$2.write(SourceFile:488)
-	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:827)
-	at io.netty.channel.AbstractChannelHandlerContext.writeAndFlush(AbstractChannelHandlerContext.java:804)
-	at io.netty.channel.AbstractChannelHandlerContext.writeAndFlush(AbstractChannelHandlerContext.java:869)
-	at io.netty.channel.DefaultChannelPipeline.writeAndFlush(DefaultChannelPipeline.java:1046)
-	at io.netty.channel.Channel.writeAndFlush(Channel.java:257)
-	at wu.c(SourceFile:324)
-	at wu.b(SourceFile:316)
-	at wu.a(SourceFile:298)
-	at wu.a(SourceFile:292)
-	at wu.exceptionCaught(SourceFile:143)
-	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:289)
-	at io.netty.channel.AbstractChannelHandlerContext.fireExceptionCaught(AbstractChannelHandlerContext.java:271)
-	at io.netty.channel.DefaultChannelPipeline$HeadContext.exceptionCaught(DefaultChannelPipeline.java:1396)
-	at io.netty.channel.DefaultChannelPipeline.fireExceptionCaught(DefaultChannelPipeline.java:890)
-	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.handleReadException(AbstractNioByteChannel.java:127)
-	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:179)
-	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.handle(AbstractNioChannel.java:445)
-	at io.netty.channel.nio.NioIoHandler$DefaultNioRegistration.handle(NioIoHandler.java:388)
-	at io.netty.channel.nio.NioIoHandler.processSelectedKey(NioIoHandler.java:596)
-	at io.netty.channel.nio.NioIoHandler.processSelectedKeysPlain(NioIoHandler.java:541)
-	at io.netty.channel.nio.NioIoHandler.processSelectedKeys(NioIoHandler.java:514)
-	at io.netty.channel.nio.NioIoHandler.run(NioIoHandler.java:484)
-	at io.netty.channel.SingleThreadIoEventLoop.runIo(SingleThreadIoEventLoop.java:225)
-	at io.netty.channel.SingleThreadIoEventLoop.run(SingleThreadIoEventLoop.java:196)
-	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:1193)
-	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
-	at java.base/java.lang.Thread.run(Thread.java:1474)
-[07:59:36] [Netty NIO IO #8/ERROR]: Error sending packet clientbound/minecraft:disconnect
-io.netty.handler.codec.EncoderException: Sending unknown packet 'clientbound/minecraft:disconnect'
-	at aan.a(SourceFile:50)
-	at aan.encode(SourceFile:14)
-	at xj.a(SourceFile:26)
-	at xj.encode(SourceFile:12)
-	at io.netty.handler.codec.MessageToByteEncoder.write(MessageToByteEncoder.java:107)
-	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:827)
-	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:752)
-	at io.netty.channel.ChannelOutboundHandlerAdapter.write(ChannelOutboundHandlerAdapter.java:113)
-	at wu$2.write(SourceFile:488)
-	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:827)
-	at io.netty.channel.AbstractChannelHandlerContext.writeAndFlush(AbstractChannelHandlerContext.java:804)
-	at io.netty.channel.AbstractChannelHandlerContext.writeAndFlush(AbstractChannelHandlerContext.java:869)
-	at io.netty.channel.DefaultChannelPipeline.writeAndFlush(DefaultChannelPipeline.java:1046)
-	at io.netty.channel.Channel.writeAndFlush(Channel.java:257)
-	at wu.c(SourceFile:324)
-	at wu.b(SourceFile:316)
-	at wu.a(SourceFile:298)
-	at wu.a(SourceFile:292)
-	at wu.exceptionCaught(SourceFile:143)
-	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:289)
-	at io.netty.channel.AbstractChannelHandlerContext.fireExceptionCaught(AbstractChannelHandlerContext.java:271)
-	at io.netty.channel.DefaultChannelPipeline$HeadContext.exceptionCaught(DefaultChannelPipeline.java:1396)
-	at io.netty.channel.DefaultChannelPipeline.fireExceptionCaught(DefaultChannelPipeline.java:890)
-	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.handleReadException(AbstractNioByteChannel.java:127)
-	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:179)
-	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.handle(AbstractNioChannel.java:445)
-	at io.netty.channel.nio.NioIoHandler$DefaultNioRegistration.handle(NioIoHandler.java:388)
-	at io.netty.channel.nio.NioIoHandler.processSelectedKey(NioIoHandler.java:596)
-	at io.netty.channel.nio.NioIoHandler.processSelectedKeysPlain(NioIoHandler.java:541)
-	at io.netty.channel.nio.NioIoHandler.processSelectedKeys(NioIoHandler.java:514)
-	at io.netty.channel.nio.NioIoHandler.run(NioIoHandler.java:484)
-	at io.netty.channel.SingleThreadIoEventLoop.runIo(SingleThreadIoEventLoop.java:225)
-	at io.netty.channel.SingleThreadIoEventLoop.run(SingleThreadIoEventLoop.java:196)
-	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:1193)
-	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
-	at java.base/java.lang.Thread.run(Thread.java:1474)
-[09:37:40] [Netty NIO IO #3/ERROR]: Error sending packet clientbound/minecraft:disconnect
-io.netty.handler.codec.EncoderException: Sending unknown packet 'clientbound/minecraft:disconnect'
-	at aan.a(SourceFile:50)
-	at aan.encode(SourceFile:14)
-	at xj.a(SourceFile:26)
-	at xj.encode(SourceFile:12)
-	at io.netty.handler.codec.MessageToByteEncoder.write(MessageToByteEncoder.java:107)
-	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:827)
-	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:752)
-	at io.netty.channel.ChannelOutboundHandlerAdapter.write(ChannelOutboundHandlerAdapter.java:113)
-	at wu$2.write(SourceFile:488)
-	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:827)
-	at io.netty.channel.AbstractChannelHandlerContext.writeAndFlush(AbstractChannelHandlerContext.java:804)
-	at io.netty.channel.AbstractChannelHandlerContext.writeAndFlush(AbstractChannelHandlerContext.java:869)
-	at io.netty.channel.DefaultChannelPipeline.writeAndFlush(DefaultChannelPipeline.java:1046)
-	at io.netty.channel.Channel.writeAndFlush(Channel.java:257)
-	at wu.c(SourceFile:324)
-	at wu.b(SourceFile:316)
-	at wu.a(SourceFile:298)
-	at wu.a(SourceFile:292)
-	at wu.exceptionCaught(SourceFile:143)
-	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:289)
-	at io.netty.channel.AbstractChannelHandlerContext.fireExceptionCaught(AbstractChannelHandlerContext.java:271)
-	at io.netty.channel.DefaultChannelPipeline$HeadContext.exceptionCaught(DefaultChannelPipeline.java:1396)
-	at io.netty.channel.DefaultChannelPipeline.fireExceptionCaught(DefaultChannelPipeline.java:890)
-	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.handleReadException(AbstractNioByteChannel.java:127)
-	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:179)
-	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.handle(AbstractNioChannel.java:445)
-	at io.netty.channel.nio.NioIoHandler$DefaultNioRegistration.handle(NioIoHandler.java:388)
-	at io.netty.channel.nio.NioIoHandler.processSelectedKey(NioIoHandler.java:596)
-	at io.netty.channel.nio.NioIoHandler.processSelectedKeysPlain(NioIoHandler.java:541)
-	at io.netty.channel.nio.NioIoHandler.processSelectedKeys(NioIoHandler.java:514)
-	at io.netty.channel.nio.NioIoHandler.run(NioIoHandler.java:484)
-	at io.netty.channel.SingleThreadIoEventLoop.runIo(SingleThreadIoEventLoop.java:225)
-	at io.netty.channel.SingleThreadIoEventLoop.run(SingleThreadIoEventLoop.java:196)
-	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:1193)
-	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
-	at java.base/java.lang.Thread.run(Thread.java:1474)
-[11:28:09] [Netty NIO IO #4/ERROR]: Error sending packet clientbound/minecraft:disconnect
-io.netty.handler.codec.EncoderException: Sending unknown packet 'clientbound/minecraft:disconnect'
-	at aan.a(SourceFile:50)
-	at aan.encode(SourceFile:14)
-	at xj.a(SourceFile:26)
-	at xj.encode(SourceFile:12)
-	at io.netty.handler.codec.MessageToByteEncoder.write(MessageToByteEncoder.java:107)
-	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:827)
-	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:752)
-	at io.netty.channel.ChannelOutboundHandlerAdapter.write(ChannelOutboundHandlerAdapter.java:113)
-	at wu$2.write(SourceFile:488)
-	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:827)
-	at io.netty.channel.AbstractChannelHandlerContext.writeAndFlush(AbstractChannelHandlerContext.java:804)
-	at io.netty.channel.AbstractChannelHandlerContext.writeAndFlush(AbstractChannelHandlerContext.java:869)
-	at io.netty.channel.DefaultChannelPipeline.writeAndFlush(DefaultChannelPipeline.java:1046)
-	at io.netty.channel.Channel.writeAndFlush(Channel.java:257)
-	at wu.c(SourceFile:324)
-	at wu.b(SourceFile:316)
-	at wu.a(SourceFile:298)
-	at wu.a(SourceFile:292)
-	at wu.exceptionCaught(SourceFile:143)
-	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:289)
-	at io.netty.channel.AbstractChannelHandlerContext.fireExceptionCaught(AbstractChannelHandlerContext.java:271)
-	at io.netty.channel.DefaultChannelPipeline$HeadContext.exceptionCaught(DefaultChannelPipeline.java:1396)
-	at io.netty.channel.DefaultChannelPipeline.fireExceptionCaught(DefaultChannelPipeline.java:890)
-	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.handleReadException(AbstractNioByteChannel.java:127)
-	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:179)
-	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.handle(AbstractNioChannel.java:445)
-	at io.netty.channel.nio.NioIoHandler$DefaultNioRegistration.handle(NioIoHandler.java:388)
-	at io.netty.channel.nio.NioIoHandler.processSelectedKey(NioIoHandler.java:596)
-	at io.netty.channel.nio.NioIoHandler.processSelectedKeysPlain(NioIoHandler.java:541)
-	at io.netty.channel.nio.NioIoHandler.processSelectedKeys(NioIoHandler.java:514)
-	at io.netty.channel.nio.NioIoHandler.run(NioIoHandler.java:484)
-	at io.netty.channel.SingleThreadIoEventLoop.runIo(SingleThreadIoEventLoop.java:225)
-	at io.netty.channel.SingleThreadIoEventLoop.run(SingleThreadIoEventLoop.java:196)
-	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:1193)
-	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
-	at java.base/java.lang.Thread.run(Thread.java:1474)
-[11:39:40] [Server thread/INFO]: Unknown or incomplete command. See below for error
-[11:39:40] [Server thread/INFO]: <--[HERE]
-[11:39:51] [Server thread/INFO]: Stopping the server
-[11:39:51] [Server thread/INFO]: Stopping server
-[11:39:51] [Server thread/INFO]: Saving players
-[11:39:51] [Server thread/INFO]: Saving worlds
-[11:39:51] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[11:39:51] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[11:39:51] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[11:39:51] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[11:39:51] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[11:39:51] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[11:39:51] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[12:34:13] [Server thread/INFO]: Villager Villager['Villager'/174, l='ServerLevel[world]', x=1999422.70, y=64.00, z=1999916.70] died, message: 'Villager was slain by Husk'
+[12:35:56] [User Authenticator #4/INFO]: UUID of player Fanescu is a9ef744a-bd70-49e8-959c-a1020002af84
+[12:35:58] [Server thread/INFO]: Fanescu[/188.26.8.198:61293] logged in with entity id 11882 at (1999773.9908430204, 64.8963013467584, 2000224.812880593)
+[12:35:58] [Server thread/INFO]: Fanescu joined the game
+[12:36:15] [Server thread/INFO]: [Fanescu: Set own game mode to Survival Mode]
+[12:37:11] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2003ms or 40 ticks behind
+[12:37:46] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2000ms or 40 ticks behind
+[12:38:11] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2000ms or 40 ticks behind
+[12:38:53] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2001ms or 40 ticks behind
+[12:39:31] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2000ms or 40 ticks behind
+[12:39:57] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2001ms or 40 ticks behind
+[12:40:30] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2001ms or 40 ticks behind
+[12:41:11] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2001ms or 40 ticks behind
+[12:42:07] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2002ms or 40 ticks behind
+[12:42:43] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2006ms or 40 ticks behind
+[12:43:24] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2001ms or 40 ticks behind
+[12:44:05] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2001ms or 40 ticks behind
+[12:44:49] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2001ms or 40 ticks behind
+[12:45:32] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2001ms or 40 ticks behind
+[12:46:23] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2001ms or 40 ticks behind
+[12:47:07] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2002ms or 40 ticks behind
+[12:48:03] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2006ms or 40 ticks behind
+[12:48:35] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2003ms or 40 ticks behind
+[12:49:03] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2000ms or 40 ticks behind
+[12:49:26] [Server thread/INFO]: [Fanescu: Set own game mode to Spectator Mode]
+[12:49:49] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2027ms or 40 ticks behind
+[12:50:11] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2044ms or 40 ticks behind
+[12:51:51] [Server thread/INFO]: [Fanescu: Set own game mode to Survival Mode]
+[12:52:52] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2002ms or 40 ticks behind
+[12:53:47] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2000ms or 40 ticks behind
+[12:54:17] [Server thread/INFO]: Fanescu lost connection: Disconnected
+[12:54:17] [Server thread/INFO]: Fanescu left the game
+[12:55:33] [Server thread/INFO]: Villager Villager['Villager'/175, l='ServerLevel[world]', x=1999386.72, y=65.56, z=1999891.89] died, message: 'Villager was slain by Husk'
+[12:56:29] [User Authenticator #5/INFO]: UUID of player Fanescu is a9ef744a-bd70-49e8-959c-a1020002af84
+[12:56:32] [Server thread/INFO]: Fanescu[/188.26.8.198:57455] logged in with entity id 19820 at (1999716.8223785942, 63.0, 2000198.9721501996)
+[12:56:32] [Server thread/INFO]: Fanescu joined the game
+[12:56:43] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2010ms or 40 ticks behind
+[12:57:07] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2000ms or 40 ticks behind
+[12:57:38] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2000ms or 40 ticks behind
+[12:58:40] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2174ms or 43 ticks behind
+[12:59:21] [Server thread/INFO]: [Fanescu: Set own game mode to Spectator Mode]
+[12:59:29] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2001ms or 40 ticks behind
+[13:00:14] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2000ms or 40 ticks behind
+[13:01:35] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2033ms or 40 ticks behind
+[13:02:00] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2081ms or 41 ticks behind
+[13:02:18] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2514ms or 50 ticks behind
+[13:02:37] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2137ms or 42 ticks behind
+[13:02:54] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2123ms or 42 ticks behind
+[13:03:16] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2024ms or 40 ticks behind
+[13:03:33] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2564ms or 51 ticks behind
+[13:04:01] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2411ms or 48 ticks behind
+[13:04:23] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2000ms or 40 ticks behind
+[13:04:48] [Server thread/INFO]: [Fanescu: Set own game mode to Survival Mode]
+[13:05:15] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2012ms or 40 ticks behind
+[13:05:45] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2002ms or 40 ticks behind
+[13:05:54] [Server thread/INFO]: Fanescu lost connection: Disconnected
+[13:05:54] [Server thread/INFO]: Fanescu left the game
+[13:40:14] [User Authenticator #6/INFO]: UUID of player Fanescu is a9ef744a-bd70-49e8-959c-a1020002af84
+[13:40:17] [Server thread/INFO]: Fanescu[/188.26.8.198:55631] logged in with entity id 31864 at (1999692.699999988, -17.0, 2000172.300000012)
+[13:40:17] [Server thread/INFO]: Fanescu joined the game
+[13:40:22] [Server thread/INFO]: [Fanescu: Set own game mode to Spectator Mode]
+[13:40:36] [Server thread/INFO]: [Fanescu: Set own game mode to Survival Mode]
+[13:40:45] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2006ms or 40 ticks behind
+[13:41:24] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2000ms or 40 ticks behind
+[13:42:18] [Server thread/INFO]: [Fanescu: Teleported Fanescu to -4999.500000, 80.000000, 4000.500000]
+[13:42:18] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2070ms or 41 ticks behind
+[13:42:41] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8290ms or 165 ticks behind
+[13:43:07] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 10676ms or 213 ticks behind
+[13:43:32] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 10034ms or 200 ticks behind
+[13:43:57] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 10280ms or 205 ticks behind
+[13:44:23] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 10479ms or 209 ticks behind
+[13:44:47] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 9223ms or 184 ticks behind
+[13:45:11] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8863ms or 177 ticks behind
+[13:45:39] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 13006ms or 260 ticks behind
+[13:46:04] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 10555ms or 211 ticks behind
+[13:46:29] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 9823ms or 196 ticks behind
+[13:46:54] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 9574ms or 191 ticks behind
+[13:47:17] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8490ms or 169 ticks behind
+[13:47:41] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8930ms or 178 ticks behind
+[13:48:05] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8955ms or 179 ticks behind
+[13:48:29] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 9584ms or 191 ticks behind
+[13:48:55] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 10440ms or 208 ticks behind
+[13:49:21] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 10892ms or 217 ticks behind
+[13:49:46] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 10684ms or 213 ticks behind
+[13:49:53] [Server thread/INFO]: Villager Villager['Villager'/33490, l='ServerLevel[world]', x=-5038.56, y=63.00, z=3967.50] died, message: 'Villager was slain by Fanescu'
+[13:50:05] [Server thread/INFO]: Villager Villager['Villager'/33438, l='ServerLevel[world]', x=-5026.14, y=66.94, z=4012.25] died, message: 'Villager was slain by Fanescu'
+[13:50:11] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 9267ms or 185 ticks behind
+[13:50:32] [Server thread/INFO]: Fanescu was slain by Iron Golem
+[13:50:35] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 9588ms or 191 ticks behind
+[13:51:10] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2001ms or 40 ticks behind
+[13:51:27] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2094ms or 41 ticks behind
+[13:51:45] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3068ms or 61 ticks behind
+[13:52:02] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2341ms or 46 ticks behind
+[13:52:08] [Server thread/INFO]: Fanescu lost connection: Disconnected
+[13:52:08] [Server thread/INFO]: Fanescu left the game
+[13:59:05] [Server thread/INFO]: Stopping the server
+[13:59:05] [Server thread/INFO]: Stopping server
+[13:59:05] [Server thread/INFO]: Saving players
+[13:59:05] [Server thread/INFO]: Saving worlds
+[13:59:05] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[13:59:05] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[13:59:05] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[13:59:05] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[13:59:05] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[13:59:05] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[13:59:05] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
